@@ -1,0 +1,15 @@
+Package: ukcovidget
+Type: Package
+Title: Retrieves UK Covid Data from the Government Website
+Version: 0.1.0
+Author: Richard Boyes
+Maintainer: The package maintainer <rboyes@gmail.com>
+Description: Performs an HTTP Get on the UK covid data website to retrieve data
+    for different locations. See more at: https://coronavirus.data.gov.uk/developers-guide
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: httr, jsonlite
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
